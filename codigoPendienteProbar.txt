@@ -1,0 +1,29 @@
+Class Integer subclassOf Number
+	Integer +(Integer a){
+		^ sadsad;
+	}
+	
+-------------------------------------
+	
+	// Example program
+#include <iostream>
+#include <string>
+#include <functional>
+#include <typeinfo>
+
+using namespace std;
+
+int main()
+{
+    /*function<int(int,int)> f = [](int a, int b){
+        if(true) return 1;
+        else return 2;
+        };*/
+    
+    function<void(int,int)> f = [&](int a, int b){};
+    //auto f = [&](int a, int b){};
+    float d = 3.0;
+    cout<<typeid(f).name();
+    //int c = f();
+    //cout<<c;
+}

@@ -1,0 +1,7 @@
+antlr4 -package com.iberus Iberus.g4
+
+javac Iberus*.java
+
+grun Iberus program -gui input.txt
+
+java com.iberus.IberusCompiler < input.txt

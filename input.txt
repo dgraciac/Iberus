@@ -1,0 +1,161 @@
+Integer A <- +05e+02;
+
+Integer J;
+
+//Comentario
+
+g0(Mesa miMesa){
+	//Comentario
+	Real f;
+	f <- -02.05E+5;
+	Character c <- 'h';
+	Rueda r <- Piece.F3(Create(Character));
+	/*Comentario*/
+}
+
+G0(Mesa miMesa){
+
+}
+
+g1{} 
+
+
+Function g2 <- Integer(Integer a,Float b){return 1;}; //con parámetros, con retorno
+
+Function g3 <- (Integer a,Float b){}; //con parámetros, sin retorno
+
+Function g4 <- Integer{return 1;}; //sin parámetros, con retorno
+
+Function g5 <- {}; //sin parámetros, sin retorno
+
+Function g9 <- (Function f){};
+
+g6{
+	Integer a <- g2(1,0.0);
+	g3(1,0.0);
+	Integer a <- Integer(Integer a,Float b){return 1;}(1,0.0);
+	Integer b <- g4();
+	g5();
+	g9(g2);
+}
+
+Function g8 <- (Piece p){p dismount;};
+
+g7(Function f){
+	Sequence seq <- Create(Sequence);
+	seq forEach g8;
+	seq forEach ((Piece p){p dismount;});
+	seq forEach f;
+}
+
+/*
+sadasd asd asd sad -8hd //sds
+*/
+
+Class Piece subclassOf Thing
+	Integer Instancias <- -03E+04;
+	//Comentario
+	Subpiece1 subpiece1 <- Create(Subpiece1);
+	/*Comentario*/
+
+	static Integer dist;
+	
+	Function f <- Integer(Integer a,Float b){return 1;};
+	
+	static Function F <- Integer(Integer a,Float b){return 1;};
+	
+	Real f0(Integer a, Car aCar){
+		a <- c;
+		a <- -2E-6; //tendría que dar error???
+		a <- C;
+		B <- aCar carMethod (h hMethod) (g gMethod);
+		F <- Create(Wallet);
+		a;
+		aCar method Instancias;
+		return Create(Real);
+	}
+	
+	Rueda F3(Character jk){
+		jk <- '\'';
+		Sequence seq <- ['\'',Create(Wallet),"\"sdasd087¨^%·{}[=_",V,c,jk <- 'i'];
+		return Create(Rueda);
+	}
+	
+	f1(String str){
+		str <- "\"sdasd087¨^%·{}[=_";
+		Character c;
+		switch a method p1 p2 {
+			1:{asdsa;}
+			2:ghj;
+			:{}
+		}
+		return;
+		//comentario
+	}
+	
+	h4{
+		Integer a <- f(1,0.0);
+		f(1,0.0);
+		Integer a <- Integer(Integer a,Float b){return 1;}(1,0.0);
+		Integer b <- F(1,0.0);
+	}
+	
+	Integer f5{
+		Text asdf <- "asd";
+		return 1;
+	}
+	
+	f6{
+		1;
+	}
+	
+	F4(Silla s){
+		Real.Set();
+		
+		if(true);
+		
+		if(true){
+			while(false);
+		}
+		
+		if(true);
+		else;
+		
+		if(true);
+		else{
+			do break; while(true)
+		}
+		
+		if(true){
+			do {continue;} while(false)
+		}
+		else if(true);
+		else if(true){}
+		else;
+		
+		if(true){
+			while(true){
+			}
+		}
+		else if(true){}
+		else if(true);
+		else{}
+		
+		
+	}
+	
+	f2(String str){
+	myClass.F4(miSilla);
+	/*comentario*/
+	}	
+	
+/
+
+Boolean g1(Integer ca, Character c, String str){
+	Boolean b <- Create(Boolean);
+	b <- true;
+	b <- false;
+	return ;
+}	
+
+Class Tool subclassOf Thing/
