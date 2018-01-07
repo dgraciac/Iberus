@@ -154,12 +154,13 @@ EndClassSymbol : '/' ;
 
 /*
 
-PENDIENTE usar funciones en if, else, while, doWhile, etc.
+PENDIENTE cambiar a listas heterogéneas
+PENDIENTE usar funciones en if, else, while, doWhile, etc.???
 
 PENDIENTE usar funciones para definir rutinas (el bloque)???
 
 PENDIENTE usando funciones anónimas se puede prescindir de los for, for range, for in ??? Sí, creando arrays (a partir de enteros) y métodos que reciben funciones anónimas como parámetros.
-PENDIENTE que los booleanos sean objetos??? Sí (implementar ifTrue,ifFalse, ifTrueIfFalse, whileTrue, whileFalse)
+PENDIENTE que los booleanos sean objetos??? Si sí entonces implementar ifTrue,ifFalse, ifTrueIfFalse, whileTrue, whileFalse.
 PENDIENTE high order functions (map, filter, etc.)
 PENDIENTE ¿cómo implementar myClass?
 PENDIENTE ¿cómo implementar self? 
