@@ -154,7 +154,8 @@ EndClassSymbol : '/' ;
 
 /*
 
-PENDIENTE cambiar a listas heterogéneas
+PENDIENTE Tipos genéricos/parametrizados
+PENDIENTE listas homógeneas (es una lista parametrizada)
 PENDIENTE usar funciones en if, else, while, doWhile, etc.???
 
 PENDIENTE usar funciones para definir rutinas (el bloque)???

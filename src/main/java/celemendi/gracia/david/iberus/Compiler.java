@@ -1,13 +1,24 @@
-package com.iberus;
+package celemendi.gracia.david.iberus;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 
+import java.io.IOException;
+
 public class Compiler {
-    public static void main(String[] args) throws Exception {
-        ANTLRInputStream input = new ANTLRInputStream(System.in);
+
+    private Compiler() {}
+
+    public static void compile(IberusBaseListener iberusBaseListener) {
+
+        ANTLRInputStream input;
+        try {
+            input = new ANTLRInputStream(System.in);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         IberusLexer lexer = new IberusLexer(input);
 
@@ -19,9 +30,10 @@ public class Compiler {
 
         ParseTreeWalker walker = new ParseTreeWalker();
 
-        walker.walk(new IberusToCPlusPlus(), tree);
+        walker.walk(iberusBaseListener, tree);
 
         System.out.println();
 
     }
+
 }
