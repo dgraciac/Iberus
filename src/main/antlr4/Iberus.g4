@@ -157,6 +157,10 @@ EndClassSymbol : '/' ;
 PENDIENTE Tipos genéricos/parametrizados
 PENDIENTE listas homógeneas (es una lista parametrizada)
 PENDIENTE usar funciones en if, else, while, doWhile, etc.???
+PENDIENTE sentencias de control(if, for, while) deben ser palabras clave
+PENDIENTE los números deben ser objetos???
+PENDIENTE deben existir un tipo boolean que no sea un objeto. Debe ser una palabra clave.
+PENDIENTE caracteres deben ser objetos??? o deben ser un tipo reservado y palabra clave.
 
 PENDIENTE usar funciones para definir rutinas (el bloque)???
 
